@@ -52,7 +52,7 @@ They also require [anaconda](https://www.anaconda.com/products/distribution) to 
 
 ### Steps to get scripts working
 
-1. Clone this repository into your home folder. `git clone <ssh> ~`
+1. Clone this repository into your home folder. `git clone git@github.com:te25son/Scripts.git ~`
 2. Change access permissions of files within the scripts folder. This will allow them to be called from the command line. `chmod +x ~/scripts/*.sh`
 3. Setup the path and aliases. `setup.sh`[^1]
 
