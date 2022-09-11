@@ -36,9 +36,11 @@ So much less typing! The `create` command will only ask you which python version
 
 The full list commands that are automated here are:
 
-    - `create`: Creats a new virtual environment with anaconda that's named after the present working directory.
-    - `activate`: Activates the virtual environment based on what working directory you're presently in after deactivating any currently active environment. This makes switching virtual environments between projects much easier.
-    - `deactivate`: Deactivates the anaconda virtual environment with a single command instead of the usual `conda deactivate`.
+- `create`: Creats a new virtual environment with anaconda that's named after the present working directory.
+
+- `activate`: Activates the virtual environment based on what working directory you're presently in after deactivating any currently active environment. This makes switching virtual environments between projects much easier.
+
+- `deactivate`: Deactivates the anaconda virtual environment with a single command instead of the usual `conda deactivate`.
 
 
 ### Prerequisites
