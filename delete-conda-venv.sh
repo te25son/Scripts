@@ -10,7 +10,8 @@ read "?Do you really want to delete '$current_folder_name' environment?  [[y]/n]
         [Nn]* ) return;;
 		* ) ;;
     esac
-echo "Deleting '$current_folder_name' environment..."
-conda deactivate && conda env remove -n $current_folder_name;
 
+echo "Deleting '$current_folder_name' environment..."
+
+conda deactivate && conda env remove -n $current_folder_name;
 
