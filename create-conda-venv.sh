@@ -1,7 +1,7 @@
 #!/bin/bash zsh
 
 # Ask for the current version of python.
- read "?Define Python version (newest will be used by default): " python_version;
+read "?Define Python version (newest will be used by default): " python_version;
 
 # Get the current folder name.
 # This will be used to create the name of the environment.
